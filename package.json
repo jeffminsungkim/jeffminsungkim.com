@@ -2,7 +2,16 @@
   "name": "jeffminsungkim.com",
   "version": "1.0.0",
   "description": "Awesome Personal Website",
+  "license": "MIT",
+  "repository": "jeffminsungkim/jeffminsungkim.com",
   "author": "JeffMinsungKim <ziznzkak@gmail.com>",
+  "homepage": "https://jeffminsungkim.com",
+  "keywords": [
+    "vue",
+    "nuxt",
+    "blog",
+    "webpage"
+  ],
   "private": true,
   "scripts": {
     "dev": "nuxt",
