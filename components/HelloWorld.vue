@@ -3,9 +3,9 @@
 </template>
 
 <script>
-  export default {
-    data() {
-      return { greeting: 'Hello World!' };
-    },
-  };
+export default {
+  data() {
+    return { greeting: "Hello World!" };
+  }
+};
 </script>
