@@ -15,6 +15,7 @@
   "private": true,
   "scripts": {
     "test": "jest",
+    "codecov": "codecov",
     "dev": "nuxt",
     "build": "nuxt build",
     "start": "nuxt start",
