@@ -12,6 +12,8 @@
 
 ## Build Setup
 
+[![Greenkeeper badge](https://badges.greenkeeper.io/jeffminsungkim/jeffminsungkim.com.svg)](https://greenkeeper.io/)
+
 ``` bash
 # install dependencies
 $ npm install # Or yarn install
