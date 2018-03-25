@@ -6,6 +6,8 @@
   <img src="https://codecov.io/gh/jeffminsungkim/jeffminsungkim.com/branch/master/graph/badge.svg" alt="Coverage Status"></a>
   <a href="https://github.com/facebook/jest">
   <img src="https://img.shields.io/badge/tested_with-jest-99424f.svg" alt="Jest"></a>
+  <a href="https://assertible.com/dashboard#/services/b74d5d57-f272-4b5f-bc3c-693adb9ece1a/results">
+  <img src="https://assertible.com/apis/b74d5d57-f272-4b5f-bc3c-693adb9ece1a/status?api_token=cNmqW5NUTsRlpr6z" alt="Assertible"></a>
   <a href="https://greenkeeper.io/">
   <img src="https://badges.greenkeeper.io/jeffminsungkim/jeffminsungkim.com.svg" alt="Greenkeeper"></a>
   <a href="https://david-dm.org/jeffminsungkim/jeffminsungkim.com">
