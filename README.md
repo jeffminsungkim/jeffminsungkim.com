@@ -1,6 +1,11 @@
-# jeffminsungkim.com
-
-> Awesome Personal Website
+<p align="center"><img align="center" src="http://imgur.com/V4LtoII.png"/></p>
+<p align="center">
+  <a href="https://travis-ci.org/jeffminsungkim/jeffminsungkim.com">
+  <img src="https://travis-ci.org/jeffminsungkim/jeffminsungkim.com.svg?branch=master" alt="Build Status">
+  </a>
+  <a href="#"><img src="" alt="Coverage Status"></a>
+  <a href="#"><img src="https://img.shields.io/github/license/jeffminsungkim/jeffminsungkim.com.svg" alt="License"></a>
+ </p>
 
 ## Build Setup
 
