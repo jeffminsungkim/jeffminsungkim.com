@@ -4,7 +4,9 @@
   <img src="https://travis-ci.org/jeffminsungkim/jeffminsungkim.com.svg?branch=master" alt="Build Status"></a>
   <a href="#"><img src="" alt="Coverage Status"></a>
   <a href="https://david-dm.org/jeffminsungkim/jeffminsungkim.com">
-  <img src="https://david-dm.org/jeffminsungkim/jeffminsungkim.com.svg" alt="Dependencies Status"></a>
+  <img src="https://david-dm.org/jeffminsungkim/jeffminsungkim.com/status.svg" alt="Dependencies Status"></a>
+  <a href="https://david-dm.org/jeffminsungkim/jeffminsungkim.com?type=dev">
+  <img src="https://david-dm.org/jeffminsungkim/jeffminsungkim.com/dev-status.svg" alt="Dependencies Status"/></a>
   <a href="#"><img src="https://img.shields.io/github/license/jeffminsungkim/jeffminsungkim.com.svg" alt="License"></a>
  </p>
 
