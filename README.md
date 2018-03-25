@@ -3,6 +3,8 @@
   <a href="https://travis-ci.org/jeffminsungkim/jeffminsungkim.com">
   <img src="https://travis-ci.org/jeffminsungkim/jeffminsungkim.com.svg?branch=master" alt="Build Status"></a>
   <a href="#"><img src="" alt="Coverage Status"></a>
+  <a href="https://greenkeeper.io/">
+  <img src="https://badges.greenkeeper.io/jeffminsungkim/jeffminsungkim.com.svg" alt="Greenkeeper"></a>
   <a href="https://david-dm.org/jeffminsungkim/jeffminsungkim.com">
   <img src="https://david-dm.org/jeffminsungkim/jeffminsungkim.com/status.svg" alt="Dependencies Status"></a>
   <a href="https://david-dm.org/jeffminsungkim/jeffminsungkim.com?type=dev">
@@ -12,7 +14,6 @@
 
 ## Build Setup
 
-[![Greenkeeper badge](https://badges.greenkeeper.io/jeffminsungkim/jeffminsungkim.com.svg)](https://greenkeeper.io/)
 
 ``` bash
 # install dependencies
