@@ -23,6 +23,8 @@
     "precommit": "npm run lint"
   },
   "jest": {
+    "coverageDirectory": "./coverage/",
+    "collectCoverage": true,
     "moduleFileExtensions": [
       "js",
       "vue"
