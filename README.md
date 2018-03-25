@@ -4,7 +4,8 @@
   <img src="https://travis-ci.org/jeffminsungkim/jeffminsungkim.com.svg?branch=master" alt="Build Status"></a>
   <a href="https://github.com/facebook/jest">
   <img src="https://img.shields.io/badge/tested_with-jest-99424f.svg" alt="Jest"></a>
-  <a href="#"><img src="" alt="Coverage Status"></a>
+  <a href="https://codecov.io/gh/jeffminsungkim/jeffminsungkim.com">
+  <img src="https://codecov.io/gh/jeffminsungkim/jeffminsungkim.com/branch/master/graph/badge.svg" alt="Coverage Status"></a>
   <a href="https://greenkeeper.io/">
   <img src="https://badges.greenkeeper.io/jeffminsungkim/jeffminsungkim.com.svg" alt="Greenkeeper"></a>
   <a href="https://david-dm.org/jeffminsungkim/jeffminsungkim.com">
