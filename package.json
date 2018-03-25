@@ -14,6 +14,7 @@
   ],
   "private": true,
   "scripts": {
+    "test": "jest",
     "dev": "nuxt",
     "build": "nuxt build",
     "start": "nuxt start",
@@ -21,15 +22,32 @@
     "lint": "eslint --ext .js,.vue --ignore-path .gitignore .",
     "precommit": "npm run lint"
   },
+  "jest": {
+    "moduleFileExtensions": [
+      "js",
+      "vue"
+    ],
+    "mapCoverage": true,
+    "transform": {
+      "^.+\\.js$": "<rootDir>/node_modules/babel-jest",
+      ".*\\.(vue)$": "<rootDir>/node_modules/jest-vue-preprocessor"
+    }
+  },
   "dependencies": {
     "ajv": "^6.4.0",
     "nuxt": "^1.4.0"
   },
   "devDependencies": {
+    "@vue/test-utils": "^1.0.0-beta.12",
     "babel-eslint": "^8.2.2",
+    "babel-jest": "^22.4.3",
     "eslint": "^4.19.1",
     "eslint-friendly-formatter": "^4.0.0",
     "eslint-loader": "^2.0.0",
-    "eslint-plugin-vue": "^4.4.0"
+    "eslint-plugin-vue": "^4.4.0",
+    "jest": "^22.4.3",
+    "jest-vue-preprocessor": "^1.4.0",
+    "jsdom": "^11.6.2",
+    "vue-server-renderer": "^2.5.16"
   }
 }
