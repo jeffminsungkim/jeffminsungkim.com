@@ -17,7 +17,7 @@
   <a href="https://github.com/prettier/prettier">
   <img src="https://img.shields.io/badge/code_style-prettier-ff69b4.svg" alt="Prettier"></a>
   <a href="https://github.com/jeffminsungkim/jeffminsungkim.com/blob/master/LICENSE.md">
-  <img src="https://img.shields.io/github/license/jeffminsungkim/jeffminsungkim.com.svg" alt="License"></a>
+  <img src="https://img.shields.io/badge/license-MIT-blue.svg" alt="License"></a>
  </p>
 
 ## Build Setup
