@@ -1,6 +1,6 @@
 import Vue from "vue";
 import jsdom from "jsdom";
-import HelloWorldComponent from "../../../components/HelloWorld.vue";
+import HelloWorldComponent from "@/components/HelloWorld.vue";
 
 const renderer = require("vue-server-renderer").createRenderer();
 
