@@ -1,4 +1,4 @@
-<p align="center"><img align="center" src="http://imgur.com/V4LtoII.png"/></p>
+<p align="center"><img align="center" src="https://i.imgur.com/OLCf1ZY.png"/></p>
 <p align="center">
   <a href="https://travis-ci.org/jeffminsungkim/jeffminsungkim.com">
   <img src="https://travis-ci.org/jeffminsungkim/jeffminsungkim.com.svg?branch=master" alt="Build Status"></a>
