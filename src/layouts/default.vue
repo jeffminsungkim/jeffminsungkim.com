@@ -1,13 +1,27 @@
 <template>
   <div>
+    <app-navigation/>
+    <app-logo/>
     <nuxt/>
   </div>
 </template>
 
+<script>
+import AppNavigation from "~/components/AppNavigation.vue";
+import AppLogo from "~/components/AppLogo.vue";
+
+export default {
+  components: {
+    AppNavigation,
+    AppLogo
+  }
+};
+</script>
+
 <style>
-@import url('https://fonts.googleapis.com/css?family=Italiana|Raleway');
+@import url("https://fonts.googleapis.com/css?family=Italiana|Raleway");
 html {
-  font-family: 'Raleway', sans-serif;
+  font-family: "Raleway", sans-serif;
   font-size: 16px;
   word-spacing: 1px;
   -ms-text-size-adjust: 100%;
@@ -16,10 +30,4 @@ html {
   -webkit-font-smoothing: antialiased;
   box-sizing: border-box;
 }
-
-*, *:before, *:after {
-  box-sizing: border-box;
-  margin: 0;
-}
-
 </style>
