@@ -1,13 +1,16 @@
 language: node_js
 node_js:
   - "8"
-install:
-  - npm install -g codecov
-after_script:
-  - npm run codecov
 cache:
   directories:
   - node_modules
+install:
+  - npm install
+  - npm install -g codecov
+script:
+  - npm run test
+after_success:
+  - npm run coverage
 branches:
   only:
   - master

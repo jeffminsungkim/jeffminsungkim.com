@@ -2,6 +2,8 @@
 <p align="center">
   <a href="https://travis-ci.org/jeffminsungkim/jeffminsungkim.com">
   <img src="https://travis-ci.org/jeffminsungkim/jeffminsungkim.com.svg?branch=master" alt="Build Status"></a>
+  <a href="https://codeclimate.com/github/jeffminsungkim/jeffminsungkim.com/maintainability">
+  <img src="https://api.codeclimate.com/v1/badges/b2202237842a99f5edb8/maintainability" alt="Code Climate"></a>
   <a href="https://codecov.io/gh/jeffminsungkim/jeffminsungkim.com">
   <img src="https://codecov.io/gh/jeffminsungkim/jeffminsungkim.com/branch/master/graph/badge.svg" alt="Coverage Status"></a>
   <a href="https://github.com/facebook/jest">
