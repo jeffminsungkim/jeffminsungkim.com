@@ -36,7 +36,7 @@ ul li {
 }
 
 #menu:hover {
-  border: 1px solid #fff;
+  border: 1px solid rgb(220,220,220);
   border-radius: 2px;
 }
 
@@ -62,7 +62,7 @@ ul li {
   padding: 15px 0px;
   border-radius: 2px;
   box-shadow: 0 5px 10px -2px rgba(0,0,0,.16);
-  -webkit-box-shadow: 0 5px 10px -2px rgba(0,0,0,.16);
+  background: rgba(255,255,255,.95);
 }
 
 #dropdown-menu li a {
