@@ -11,8 +11,10 @@
 <style lang="scss" scoped>
 
 .container {
+  min-width: 320px;
   min-height: 85vh;
   color: #33333d;
+
 }
 
 .container-wrapper {
@@ -22,7 +24,6 @@
   align-items: center;
   text-align: center;
   padding-top: 250px;
-  width: 100%;
 }
 
 .container-wrapper #logo {
