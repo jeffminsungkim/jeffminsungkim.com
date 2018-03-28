@@ -13,7 +13,7 @@
         <a href="#about">About</a>
       </li>
       <li class="dropdown-item">
-        <a href="#food">Food</a>
+        <a href="#travel">Travel</a>
       </li>
     </ul>
   </div>
