@@ -8,14 +8,12 @@
 <style lang="scss">
 .jmk-container {
   max-width: 320px;
-  min-height: 70vh;
+  min-height: 100vh;
   display: flex;           /* establish flex container */
-  flex-direction: column;  /* make main axis vertical */
   justify-content: center; /* center items vertically, in this case */
   align-items: center;     /* center items horizontally, in this case */
-  height: 300px;
+  text-align: center;
   color: #33333D;
-
 
   @include sm {
     background: red;
@@ -31,14 +29,13 @@
 #logo {
   width: 300px;
   margin: 5px;
-  text-align: center;
-  font: 2rem 'Italiana', serif;
+  font: 45px 'Italiana', serif;
 }
 
 #tagline {
   position: absolute;
   margin: 38px 0;
-  font: .5rem 'Raleway', sans-serif;
+  font: 9px 'Raleway', sans-serif;
 }
 
 </style>
