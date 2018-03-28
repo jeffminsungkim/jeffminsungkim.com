@@ -1,9 +1,7 @@
 <template>
   <div>
-    <header>
-      <app-navigation/>
-      <app-logo/>
-    </header>
+    <app-navigation/>
+    <app-logo/>
     <nuxt/>
     <footer>
       <app-footer/>
