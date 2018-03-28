@@ -15,6 +15,7 @@ export default {
 </script>
 
 <style scoped>
+
 .container {
   min-height: 50vh;
   display: flex;
@@ -22,4 +23,5 @@ export default {
   align-items: center;
   color: #33333d;
 }
+
 </style>
