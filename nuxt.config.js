@@ -1,18 +1,36 @@
+const { resolve } = require('path');
+const sassResourcesLoader = {
+  loader: 'sass-resources-loader',
+  options: {
+    resources: 'src/assets/**/*.scss',
+  }
+};
+
+function isVueRule(rule) {
+  return rule.test.toString() === '/\\.vue$/';
+}
+
+function isSassRule(rule) {
+  return ['/\\.sass$/', '/\\.scss$/'].indexOf(rule.test.toString()) !== -1;
+}
+
 module.exports = {
   srcDir: 'src',
   /*
   ** Headers of the page
   */
   head: {
-    title: 'jeffminsungkim.com',
+    title: 'JeffMinsungKim',
     meta: [
       { charset: 'utf-8' },
       { name: 'viewport', content: 'width=device-width, initial-scale=1' },
-      { hid: 'description', name: 'description', content: 'Awesome Personal Website' }
+      { name: 'keywords', content: 'jeffminsungkim, minsungkim, vuejs, nuxtjs, nuxt, javascript, SPA, Static, website, webpage, persoanl, area, blog'},
+      { hid: 'description', name: 'description', content: "JeffMinsungKim's Awesome Personal Website" }
     ],
     link: [
-      { rel: 'icon', type: 'image/x-icon', href: '/favicon.ico' }
-    ]
+      { rel: 'icon', type: 'image/x-icon', href: '/favicon.ico' },
+      { rel: 'stylesheet', href: 'https://fonts.googleapis.com/css?family=Italiana|Raleway' }
+    ],
   },
   /*
   ** Customize the progress bar color
@@ -32,8 +50,16 @@ module.exports = {
           test: /\.(js|vue)$/,
           loader: 'eslint-loader',
           exclude: /(node_modules)/
-        })
+        });
       }
+
+      config.module.rules.forEach((rule) => {
+        if (isVueRule(rule)) {
+          rule.options.loaders.sass.push(sassResourcesLoader);
+          rule.options.loaders.scss.push(sassResourcesLoader);
+        }
+        if (isSassRule(rule)) rule.use.push(sassResourcesLoader);
+      });
     }
   }
-}
+};
