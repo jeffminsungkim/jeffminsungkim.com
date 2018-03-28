@@ -42,6 +42,27 @@
 
 
 /* Site Text Logo */
+
+/* Site Content */
+@mixin content-section {
+  padding: 40px 0;
+  border-bottom: 1px solid #eee;
+  background: $content-bg-color;
+}
+
+@mixin jmk-content {
+  padding: 0 20px;
+  margin: 0 auto;
+  text-align: left;
+  max-width: 750px;
+}
+
+@mixin jmk-intro {
+  margin-top: 120px;
+  padding-top: 40px;
+  border-top: 1px solid #eee;
+}
+
 @mixin sm {
   @media (min-width: #{$screen-sm-min}) {
       @content;
