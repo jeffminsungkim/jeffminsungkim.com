@@ -8,12 +8,13 @@
 <style lang="scss" scoped>
 .container {
   max-width: 320px;
-  min-height: 70vh;
+  min-height: 60vh;
   display: flex;           /* establish flex container */
   justify-content: center; /* center items vertically, in this case */
   align-items: center;     /* center items horizontally, in this case */
   text-align: center;
   color: #33333D;
+  padding-top: 30px;
 
   @include sm {
     background: red;

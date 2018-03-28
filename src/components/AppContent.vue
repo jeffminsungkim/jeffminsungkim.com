@@ -49,21 +49,15 @@ h1 {
 }
 
 section {
-  padding: 40px 0;
-  border-bottom: 1px solid #eee;
+  @include content-section;
 }
 
 .content {
-  padding: 0 20px;
-  margin: 0 auto;
-  text-align: left;
-  max-width: 750px;
+  @include jmk-content;
 }
 
 #introduction {
-  margin-top: 120px;
-  padding-top: 40px;
-  border-top: 1px solid #eee;
+  @include jmk-intro;
 }
 
 </style>
