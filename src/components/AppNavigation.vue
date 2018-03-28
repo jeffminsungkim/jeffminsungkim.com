@@ -19,23 +19,24 @@
   </div>
 </template>
 
-<style>
+<style lang="scss">
+
 ul li {
   font-size: .8em;
 }
 
-#menu{
+#menu {
   position: fixed;
   display: inline-block;
   /*font size 0 removes white space from inline block elements*/
   font-size: 0;
-  margin-top: 40px;
-  margin-left: 25px;
+  margin-top: 35px;
+  right: 30px;
   z-index: 50;
 }
 
 #menu:hover {
-  border:1px solid rgb(220,220,220);
+  border: 1px solid #fff;
   border-radius: 2px;
 }
 
@@ -45,34 +46,15 @@ ul li {
 }
 
 #menu .menu-toggle {
-  padding: 10px;
-  background: rgba(255,255,255,0.9);
-  display: inline-block;
-  border: 1px solid transparent;
-  z-index: 5;
+  @include nav-burger;
 }
 
 #menu .menu-toggle span {
-  display: block;
-  margin: 2.5px 0px;
-  width: 16px;
-  height: 3px;
-  background: #33333D;
+  @include nav-toggle;
 }
 
 #dropdown-menu {
-  display: none;
-  list-style-type: none;
-  margin: 0;
-  padding: 0;
-  position: absolute;
-  top: 100%;
-  left: 0;
-  border: 1px solid rgb(220,220,220);
-  font-size: 16px;
-  text-align: center;
-  width: 100px;
-  height: 70px;
+  @include nav-dropdown;
 }
 
 #menu:hover #dropdown-menu {
@@ -84,10 +66,7 @@ ul li {
 }
 
 #dropdown-menu li a {
-  display: block;
-  padding: 5px 15px;
-  color: inherit;
-  text-decoration: none;
+  @include nav-dropdown-link;
 }
 
 .dropdown-item:hover {
