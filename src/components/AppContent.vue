@@ -1,6 +1,6 @@
 <template>
   <div>
-    <section>
+    <section class="container">
     <div class="content">
       <h1 id="introduction">Introduction</h1>
       <p>
@@ -48,8 +48,16 @@ h1 {
   font-size: 2rem;
 }
 
+p {
+  font-size: .9rem;
+}
+
 section {
   @include content-section;
+}
+
+section .container {
+  margin-top: 100px;
 }
 
 .content {
@@ -58,6 +66,15 @@ section {
 
 #introduction {
   @include jmk-intro;
+}
+
+@include sm {
+  .content h1 {
+    font-size: 2.8rem;
+  }
+  .content p {
+    font-size: 1.2rem;
+  }
 }
 
 </style>

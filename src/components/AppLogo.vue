@@ -7,36 +7,62 @@
 
 <style lang="scss" scoped>
 .container {
-  max-width: 320px;
   min-height: 60vh;
-  display: flex;           /* establish flex container */
-  justify-content: center; /* center items vertically, in this case */
-  align-items: center;     /* center items horizontally, in this case */
+  display: flex;
+  justify-content: center;
+  align-items: center;
   text-align: center;
-  color: #33333D;
-  padding-top: 30px;
+  color: #33333d;
+  padding-top: 130px;
+
+  @include xs {
+    #logo {
+      width: 100%;
+      font: 55px "Italiana", serif;
+    }
+
+    #tagline {
+      position: absolute;
+      margin: 45px 0;
+      font: 12px "Raleway", sans-serif;
+    }
+  }
 
   @include sm {
-    background: red;
+    #logo {
+      width: 100%;
+      font: 75px "Italiana", serif;
+    }
+
+    #tagline {
+      position: absolute;
+      margin: 55px 0;
+      font: 13px "Raleway", sans-serif;
+    }
   }
+
   @include md {
-    background: green;
-  }
-  @include lg {
-    background: blue;
+    #logo {
+      width: 100%;
+      font: 100px "Italiana", serif;
+    }
+
+    #tagline {
+      position: absolute;
+      margin: 65px 0;
+      font: 15px "Raleway", sans-serif;
+    }
   }
 }
 
 #logo {
-  width: 300px;
-  margin: 5px;
-  font: 45px 'Italiana', serif;
+  width: 100%;
+  font: 45px "Italiana", serif;
 }
 
 #tagline {
   position: absolute;
   margin: 38px 0;
-  font: 10px 'Raleway', sans-serif;
+  font: 10px "Raleway", sans-serif;
 }
-
 </style>
