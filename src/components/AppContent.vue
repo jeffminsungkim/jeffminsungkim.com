@@ -1,6 +1,6 @@
 <template>
   <div>
-    <section class="container">
+    <section class="container-wrapper">
     <div class="content">
       <h1 id="introduction">Introduction</h1>
       <p>
@@ -56,8 +56,8 @@ section {
   @include content-section;
 }
 
-section .container {
-  padding-top: 150px;
+section .container-wrapper {
+  padding-top: 20px;
 }
 
 .content {

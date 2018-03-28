@@ -1,68 +1,76 @@
 <template>
   <div class="container">
-    <div id="logo">JeffMinsungKim</div>
+    <div class="container-wrapper">
+      <div id="logo">JeffMinsungKim</div>
     <div id="tagline">Awesome Personal Website</div>
+    </div>
+
   </div>
 </template>
 
 <style lang="scss" scoped>
+
 .container {
-  min-height: 60vh;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  text-align: center;
+  min-height: 80vh;
   color: #33333d;
-  padding-top: 90px;
+
 
   @include xs {
-    #logo {
+    .container-wrapper #logo {
       width: 100%;
+      padding-top: 200px;
       font: 55px "Italiana", serif;
     }
 
-    #tagline {
-      position: absolute;
-      margin: 45px 0;
-      font: 12px "Raleway", sans-serif;
+    .container-wrapper #tagline {
+      padding: 5px 0;
+      margin: 0;
+      font: 10px "Raleway", sans-serif;
     }
   }
 
   @include sm {
-    #logo {
-      width: 100%;
+    .container-wrapper #logo {
       font: 75px "Italiana", serif;
     }
 
-    #tagline {
-      position: absolute;
-      margin: 55px 0;
+    .container-wrapper #tagline {
+      padding: 5px 0;
+      margin: 0;
       font: 13px "Raleway", sans-serif;
     }
   }
 
   @include md {
-    #logo {
-      width: 100%;
+    .container-wrapper #logo {
       font: 100px "Italiana", serif;
     }
 
-    #tagline {
-      position: absolute;
-      margin: 65px 0;
+    .container-wrapper #tagline {
+      padding: 5px 0;
+      margin: 0;
       font: 15px "Raleway", sans-serif;
     }
   }
 }
 
-#logo {
-  width: 100%;
+.container-wrapper {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  padding-top: 210px;
+}
+
+.container-wrapper #logo {
   font: 45px "Italiana", serif;
 }
 
-#tagline {
-  position: absolute;
-  margin: 38px 0;
-  font: 10px "Raleway", sans-serif;
+.container-wrapper #tagline {
+  padding: 7px 0;
+  margin: 0;
+  font: 11px "Raleway", sans-serif;
 }
+
 </style>
