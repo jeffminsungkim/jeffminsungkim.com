@@ -1,7 +1,7 @@
 <template>
   <div class="container">
     <div class="container-wrapper">
-      <div id="logo">JeffMinsungKim</div>
+    <div id="logo">JeffMinsungKim</div>
     <div id="tagline">Awesome Personal Website</div>
     </div>
 
@@ -13,6 +13,7 @@
 .container {
   min-height: 80vh;
   color: #33333d;
+  max-width: 750px;
 }
 
 .container-wrapper {
@@ -22,6 +23,7 @@
   align-items: center;
   text-align: center;
   padding-top: 250px;
+  width: 100%;
 }
 
 .container-wrapper #logo {
