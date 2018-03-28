@@ -11,8 +11,8 @@
 <style lang="scss" scoped>
 
 .container {
-  min-width: 320px;
-  min-height: 85vh;
+  min-height: 100vh;
+  max-width: 100%;
   color: #33333d;
 
 }
