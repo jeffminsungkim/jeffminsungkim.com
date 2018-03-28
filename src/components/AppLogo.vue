@@ -11,10 +11,8 @@
 <style lang="scss" scoped>
 
 .container {
-  min-height: 100vh;
-  max-width: 100%;
+  min-height: 80vh;
   color: #33333d;
-
 }
 
 .container-wrapper {
@@ -27,6 +25,7 @@
 }
 
 .container-wrapper #logo {
+  width: 100%;
   padding: 0;
   font: 45px "Italiana", serif;
 }
