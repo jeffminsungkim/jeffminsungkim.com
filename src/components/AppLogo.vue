@@ -8,7 +8,7 @@
 <style lang="scss">
 .jmk-container {
   max-width: 320px;
-  min-height: 100vh;
+  min-height: 70vh;
   display: flex;           /* establish flex container */
   justify-content: center; /* center items vertically, in this case */
   align-items: center;     /* center items horizontally, in this case */

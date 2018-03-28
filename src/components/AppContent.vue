@@ -49,7 +49,7 @@ h1 {
 }
 
 section {
-  padding: 50px 0;
+  padding: 40px 0;
   border-bottom: 1px solid #eee;
 }
 
@@ -58,6 +58,12 @@ section {
   margin: 0 auto;
   text-align: left;
   max-width: 750px;
+}
+
+#introduction {
+  margin-top: 120px;
+  padding-top: 40px;
+  border-top: 1px solid #eee;
 }
 
 </style>
