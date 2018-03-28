@@ -22,6 +22,7 @@
   align-items: center;
   text-align: center;
   padding-top: 250px;
+  width: 100%;
 }
 
 .container-wrapper #logo {
