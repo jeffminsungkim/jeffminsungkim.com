@@ -1,12 +1,12 @@
 <template>
-  <div class="jmk-container">
+  <div class="container">
     <div id="logo">JeffMinsungKim</div>
     <div id="tagline">Awesome Personal Website</div>
   </div>
 </template>
 
-<style lang="scss">
-.jmk-container {
+<style lang="scss" scoped>
+.container {
   max-width: 320px;
   min-height: 70vh;
   display: flex;           /* establish flex container */
@@ -35,7 +35,7 @@
 #tagline {
   position: absolute;
   margin: 38px 0;
-  font: 9px 'Raleway', sans-serif;
+  font: 10px 'Raleway', sans-serif;
 }
 
 </style>
