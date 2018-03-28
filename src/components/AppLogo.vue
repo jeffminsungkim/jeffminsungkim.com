@@ -13,7 +13,7 @@
   align-items: center;
   text-align: center;
   color: #33333d;
-  padding-top: 130px;
+  padding-top: 90px;
 
   @include xs {
     #logo {

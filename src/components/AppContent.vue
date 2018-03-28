@@ -57,7 +57,7 @@ section {
 }
 
 section .container {
-  margin-top: 100px;
+  padding-top: 150px;
 }
 
 .content {
