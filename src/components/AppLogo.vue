@@ -1,28 +1,76 @@
 <template>
-  <div class="VueToJmkLogo">
+  <div class="container">
+    <div class="container-wrapper">
     <div id="logo">JeffMinsungKim</div>
     <div id="tagline">Awesome Personal Website</div>
+    </div>
+
   </div>
 </template>
 
-<style>
-.VueToJmkLogo {
-  min-height: 100vh;
+<style lang="scss" scoped>
+
+.container {
+  min-height: 80vh;
+  color: #33333d;
+}
+
+.container-wrapper {
   display: flex;
+  flex-direction: column;
   justify-content: center;
   align-items: center;
   text-align: center;
-  color: #33333D;
+  padding-top: 200px;
 }
 
-#logo {
-  font: 100px 'Italiana', serif;
+.container-wrapper #logo {
+  padding: 0;
+  max-width: 750px;
+  font: 45px "Italiana", serif;
 }
 
-#tagline {
-  position: absolute;
-  margin: 70px 0;
-  font: 16px 'Raleway', sans-serif;
+.container-wrapper #tagline {
+  padding: 7px 0;
+  margin: 0;
+  font: 11px "Raleway", sans-serif;
 }
+
+@include xs {
+    .container-wrapper #logo {
+      padding-top: 50px;
+      font: 55px "Italiana", serif;
+    }
+
+    .container-wrapper #tagline {
+      padding: 5px 0;
+      margin: 0;
+      font: 10px "Raleway", sans-serif;
+    }
+  }
+
+  @include sm {
+    .container-wrapper #logo {
+      font: 75px "Italiana", serif;
+    }
+
+    .container-wrapper #tagline {
+      padding: 5px 0;
+      margin: 0;
+      font: 13px "Raleway", sans-serif;
+    }
+  }
+
+  @include md {
+    .container-wrapper #logo {
+      font: 100px "Italiana", serif;
+    }
+
+    .container-wrapper #tagline {
+      padding: 5px 0;
+      margin: 0;
+      font: 15px "Raleway", sans-serif;
+    }
+  }
 
 </style>

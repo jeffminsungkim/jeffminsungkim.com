@@ -1,22 +1,27 @@
 <template>
   <section class="container">
-    <div>
-      <p>Hello!!!!!! (Test)</p>
-    </div>
+    <app-content/>
   </section>
 </template>
 
 <script>
+import AppContent from "~/components/AppContent.vue";
 
+export default {
+  components: {
+    AppContent
+  }
+};
 </script>
 
-<style>
+<style scoped>
+
 .container {
   min-height: 50vh;
   display: flex;
   justify-content: center;
   align-items: center;
-  text-align: center;
-  color: #33333D;
+  color: #33333d;
 }
+
 </style>

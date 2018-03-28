@@ -1,0 +1,88 @@
+/* Main Page Resource */
+
+/* Navigation */
+@mixin nav-burger {
+  position: aboslute;
+  padding: 5px;
+  background: rgba(255,255,255,0.9);
+  display: inline-block;
+  border: 1px solid transparent;
+  z-index: 5;
+}
+
+@mixin nav-toggle {
+  display: block;
+  margin: 2.5px 0px;
+  width: 16px;
+  height: 3px;
+  background: $primary-color;
+}
+
+@mixin nav-dropdown {
+  display: none;
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  position: absolute;
+  top: 100%;
+  right: 0;
+  border: 1px solid rgb(220,220,220);
+  font-size: 16px;
+  text-align: center;
+  width: 100px;
+  height: 70px;
+}
+
+@mixin nav-dropdown-link {
+  display: block;
+  padding: 5px 15px;
+  color: inherit;
+  text-decoration: none;
+}
+
+
+/* Site Text Logo */
+
+/* Site Content */
+@mixin content-section {
+  padding: 40px 0;
+  border-bottom: 1px solid #eee;
+  background: $content-bg-color;
+}
+
+@mixin jmk-content {
+  padding: 0 20px;
+  margin: 0 auto;
+  text-align: left;
+  max-width: 750px;
+}
+
+@mixin jmk-intro {
+  margin-top: 120px;
+  padding-top: 40px;
+  border-top: 1px solid #eee;
+}
+
+@mixin xs {
+  @media (min-width: #{$screen-xs-min}) {
+      @content;
+  }
+}
+
+@mixin sm {
+  @media (min-width: #{$screen-sm-min}) {
+      @content;
+  }
+}
+
+@mixin md {
+  @media (min-width: #{$screen-md-min}) {
+      @content;
+  }
+}
+
+@mixin lg {
+  @media (min-width: #{$screen-lg-min}) {
+      @content;
+  }
+}

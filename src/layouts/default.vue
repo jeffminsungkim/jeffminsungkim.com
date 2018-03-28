@@ -3,23 +3,27 @@
     <app-navigation/>
     <app-logo/>
     <nuxt/>
+    <footer>
+      <app-footer/>
+    </footer>
   </div>
 </template>
 
 <script>
 import AppNavigation from "~/components/AppNavigation.vue";
 import AppLogo from "~/components/AppLogo.vue";
+import AppFooter from "~/components/AppFooter.vue";
 
 export default {
   components: {
     AppNavigation,
-    AppLogo
+    AppLogo,
+    AppFooter
   }
 };
 </script>
 
 <style>
-@import url("https://fonts.googleapis.com/css?family=Italiana|Raleway");
 html {
   font-family: "Raleway", sans-serif;
   font-size: 16px;
