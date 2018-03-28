@@ -70,7 +70,7 @@ section .container {
 
 @include sm {
   .content h1 {
-    font-size: 2.8rem;
+    font-size: 2.7rem;
   }
   .content p {
     font-size: 1.2rem;
