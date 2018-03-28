@@ -7,7 +7,7 @@ describe("AppLogoComponent", () => {
   const taglineTxt = "Awesome Personal Website";
 
   it("should contain class for logo", () => {
-    const classLogo = wrapper.find(".jmk-container");
+    const classLogo = wrapper.find(".container");
     expect(classLogo.exists()).toBeTruthy();
   });
 
