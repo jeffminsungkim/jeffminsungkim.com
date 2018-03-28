@@ -13,7 +13,6 @@
 .container {
   min-height: 80vh;
   color: #33333d;
-  max-width: 750px;
 }
 
 .container-wrapper {
@@ -23,12 +22,11 @@
   align-items: center;
   text-align: center;
   padding-top: 250px;
-  width: 100%;
 }
 
 .container-wrapper #logo {
-  width: 100%;
   padding: 0;
+  max-width: 750px;
   font: 45px "Italiana", serif;
 }
 
