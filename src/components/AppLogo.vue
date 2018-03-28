@@ -21,7 +21,7 @@
   justify-content: center;
   align-items: center;
   text-align: center;
-  padding-top: 250px;
+  padding-top: 200px;
 }
 
 .container-wrapper #logo {
@@ -38,6 +38,7 @@
 
 @include xs {
     .container-wrapper #logo {
+      padding-top: 50px;
       font: 55px "Italiana", serif;
     }
 
