@@ -73,7 +73,7 @@ section .container {
     font-size: 2.7rem;
   }
   .content p {
-    font-size: 1.2rem;
+    font-size: 1.1rem;
   }
 }
 
