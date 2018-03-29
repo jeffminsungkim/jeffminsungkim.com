@@ -57,12 +57,6 @@
   max-width: 750px;
 }
 
-@mixin jmk-intro {
-  margin-top: 120px;
-  padding-top: 40px;
-  border-top: 1px solid #eee;
-}
-
 @mixin xs {
   @media (min-width: #{$screen-xs-min}) {
       @content;
