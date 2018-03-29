@@ -2,7 +2,7 @@
   <div>
     <section class="container-wrapper">
       <div class="image-wrapper">
-        <img src="~/assets/image/jmk-tech-cover.png" alt="Technologies">
+        <img src="~/assets/image/jmk-tech-cover.png" alt="Technologies Cover Image">
       </div>
     <div class="content">
       <h1 id="introduction">Introduction</h1>
@@ -13,7 +13,11 @@
         impedit aliquam unde sequi harum eaque ex enim omnis aperiam autem repudiandae suscipit
         beatae iusto alias adipisci rem expedita. Nostrum earum minus magni!
       </p>
-      <img src="~/assets/image/fan-of-js.png" alt="I'm a huge fan of JavaScript!">
+      <img src="~/assets/image/huge-fan-of-js.png" alt="I'm a huge fan of JavaScript!">
+      <p>
+        I feel confident about learning new technologies and
+        especially interested in discovering hottest Front-end web application frameworks.
+      </p>
     </div>
     </section>
     <section>
