@@ -3,15 +3,14 @@
     <div class="container-wrapper">
     <div id="logo">JeffMinsungKim</div>
     <div id="tagline">Awesome Personal Website</div>
-    </div>
-
+  </div>
   </div>
 </template>
 
 <style lang="scss" scoped>
 
 .container {
-  min-height: 80vh;
+  min-height: 100vh;
   color: #33333d;
 }
 

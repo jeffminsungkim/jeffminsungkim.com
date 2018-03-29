@@ -1,6 +1,9 @@
 <template>
   <div>
     <section class="container-wrapper">
+      <div class="image-wrapper">
+        <img src="~/assets/image/jmk-tech-cover.png" alt="Technologies">
+      </div>
     <div class="content">
       <h1 id="introduction">Introduction</h1>
       <p>
@@ -10,6 +13,7 @@
         impedit aliquam unde sequi harum eaque ex enim omnis aperiam autem repudiandae suscipit
         beatae iusto alias adipisci rem expedita. Nostrum earum minus magni!
       </p>
+      <img src="~/assets/image/fan-of-js.png" alt="I'm a huge fan of JavaScript!">
     </div>
     </section>
     <section>
@@ -52,12 +56,18 @@ p {
   font-size: .9rem;
 }
 
+img {
+  width: 100%;
+  height: 100%;
+}
+
 section {
   @include content-section;
 }
 
 section .container-wrapper {
   padding-top: 20px;
+  max-width: 2560px;
 }
 
 .content {
@@ -65,7 +75,7 @@ section .container-wrapper {
 }
 
 #introduction {
-  @include jmk-intro;
+  padding-top: 40px;
 }
 
 @include sm {
@@ -75,6 +85,9 @@ section .container-wrapper {
   .content p {
     font-size: 1.1rem;
   }
+  .image-wrapper {
+  padding: 0 100px;
+}
 }
 
 </style>
