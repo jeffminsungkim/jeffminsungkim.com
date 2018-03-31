@@ -1,5 +1,44 @@
 /* Main Page Resource */
 
+
+h1 {
+  font-size: 2rem;
+}
+
+img {
+  width: 100%;
+  padding: 20px 0;
+}
+
+ul {
+  padding: 0 20px;
+}
+
+ul li {
+  padding: 0 10px;
+  font-size: .8em;
+}
+
+a {
+  color: #5c6bc0;
+}
+
+a:hover, a:visited {
+  color: #26418f;
+}
+
+em {
+  font-size: .85rem;
+}
+
+section a {
+  font-weight: bold;
+}
+
+section li {
+  margin-bottom: calc(1.5rem / 2);
+}
+
 /* Navigation */
 @mixin nav-burger {
   position: aboslute;
