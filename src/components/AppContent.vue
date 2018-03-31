@@ -5,8 +5,8 @@
         <img src="~/assets/image/jmk-tech-cover.png" alt="Technologies Cover Image">
       </div>
     <div class="content">
-      <h1 id="introduction">Introduction</h1>
-      <h3 class="sub-head">See <a href="https://github.com/jeffminsungkim/jeffminsungkim.com">source code</a> on Github.</h3>
+      <h1>Introduction</h1>
+      <h4 class="sub-head">See <a href="https://github.com/jeffminsungkim/jeffminsungkim.com">source code</a> on Github.</h4>
       <div class="jmk-blockquote">
         The purpose of creating this website is to share things that I'm interested in
         and also to describe how seriously I care about doing things on web development.
@@ -24,7 +24,7 @@
     <section>
       <div class="content">
         <h1 id="how-i-built">How I Built 🛠</h1>
-        <h2 class="sub-head">Thought process while implementing my website</h2>
+        <h4>Thought process while implementing my website</h4>
         <p class="post-date"><small>March 29, 2018</small></p>
 
         <h2>How I get started</h2>
@@ -172,9 +172,8 @@ section .container-wrapper {
 }
 
 .sub-head {
-  opacity: .7;
-  font-size: 1.1rem;
-  color: #33333D;
+  opacity: .8;
+  color: $primary-color;
 }
 
 .post-date {
@@ -188,32 +187,38 @@ section .container-wrapper {
 }
 
 .jmk-blockquote {
-  border-left: 3px solid rgba(0,0,0,.84);
-  padding-top: 10px;
-  padding-bottom: 10px;
-  padding-left: 20px;
-  margin: 15px;
-  margin-left: 5px;
-  font-style: italic;
+  @include blockquote;
 }
 
 .content {
   @include jmk-content;
 }
 
-#introduction {
-  padding-top: 40px;
-}
-
 @include sm {
   .content h1 {
-    font-size: 2.7rem;
+    font-size: 2.1rem;
+  }
+  .content h2 {
+    font-size: 1.5rem;
+  }
+  .content h3 {
+    font-size: 1.3rem;
   }
   .content p {
     font-size: 1.1rem;
+    padding: 5px 0;
   }
   .image-wrapper {
-    padding: 0 100px;
+    padding: 0 80px;
+  }
+  .jmk-blockquote {
+    font-size: 1rem;
+    border-left: 3px solid rgba(0,0,0,.84);
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 20px;
+    margin-left: 5px;
+    font-style: italic;
   }
 }
 

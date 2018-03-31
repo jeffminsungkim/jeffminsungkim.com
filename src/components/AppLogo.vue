@@ -37,7 +37,7 @@
 
 @include xs {
     .container-wrapper #logo {
-      padding-top: 50px;
+      padding-top: 100px;
       font: 55px $logo-font;
     }
 
