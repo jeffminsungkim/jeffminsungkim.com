@@ -159,12 +159,48 @@
         fugiat atque voluptatibus accusamus tempore sit voluptatem nulla nostrum facere? Eveniet non,
         asperiores optio tenetur quisquam corporis incidunt deserunt molestias ipsum beatae ducimus.
       </p>
+      <div id="social">
+        <a href="https://twitter.com/jeffminsungkim" target="_blaknk"><font-awesome-icon class="social-icon" :icon="twitter" /></a>
+        <a href="https://github.com/jeffminsungkim" target="_blaknk"><font-awesome-icon class="social-icon" :icon="github" /></a>
+        <a href="https://stackoverflow.com/users/3252438/jeffminsungkim?tab=profile" target="_blaknk"><font-awesome-icon class="social-icon" :icon="stackoverflow" /></a>
+      </div>
     </div>
   </section>
   </div>
 </template>
 
+<script>
+import FontAwesomeIcon from "@fortawesome/vue-fontawesome";
+import faGithub from "@fortawesome/fontawesome-free-brands/faGithub";
+import faTwitter from "@fortawesome/fontawesome-free-brands/faTwitter";
+import faStackoverflow from "@fortawesome/fontawesome-free-brands/faStackOverflow";
+
+export default {
+  components: {
+    FontAwesomeIcon
+  },
+  computed: {
+    github() { return faGithub; },
+    twitter() { return faTwitter; },
+    stackoverflow() { return faStackoverflow; }
+  }
+};
+</script>
+
 <style lang="scss" scoped>
+
+#social {
+  text-align: center;
+  a {
+    color: $primary-color;
+  }
+}
+
+.social-icon {
+  height: auto;
+  width: 30px;
+  padding: 20px 10px;
+}
 
 section .container-wrapper {
   padding-top: 20px;
@@ -172,12 +208,12 @@ section .container-wrapper {
 }
 
 .sub-head {
-  opacity: .8;
+  opacity: 0.8;
   color: $primary-color;
 }
 
 .post-date {
-  opacity: .7;
+  opacity: 0.7;
   text-align: right;
 }
 
@@ -213,7 +249,7 @@ section .container-wrapper {
   }
   .jmk-blockquote {
     font-size: 1rem;
-    border-left: 3px solid rgba(0,0,0,.84);
+    border-left: 3px solid rgba(0, 0, 0, 0.84);
     padding-top: 10px;
     padding-bottom: 10px;
     padding-left: 20px;
@@ -221,6 +257,5 @@ section .container-wrapper {
     font-style: italic;
   }
 }
-
 </style>
 
