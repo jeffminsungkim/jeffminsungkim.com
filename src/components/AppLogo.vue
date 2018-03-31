@@ -11,7 +11,7 @@
 
 .container {
   min-height: 100vh;
-  color: #33333d;
+  color: $primary-color;
 }
 
 .container-wrapper {
@@ -26,49 +26,49 @@
 .container-wrapper #logo {
   padding: 0;
   max-width: 750px;
-  font: 45px "Italiana", serif;
+  font: 45px $logo-font;
 }
 
 .container-wrapper #tagline {
   padding: 7px 0;
   margin: 0;
-  font: 11px "Raleway", sans-serif;
+  font: 11px $content-font;
 }
 
 @include xs {
     .container-wrapper #logo {
       padding-top: 50px;
-      font: 55px "Italiana", serif;
+      font: 55px $logo-font;
     }
 
     .container-wrapper #tagline {
       padding: 5px 0;
       margin: 0;
-      font: 10px "Raleway", sans-serif;
+      font: 10px $content-font;
     }
   }
 
   @include sm {
     .container-wrapper #logo {
-      font: 75px "Italiana", serif;
+      font: 75px $logo-font;
     }
 
     .container-wrapper #tagline {
       padding: 5px 0;
       margin: 0;
-      font: 13px "Raleway", sans-serif;
+      font: 13px $content-font;
     }
   }
 
   @include md {
     .container-wrapper #logo {
-      font: 100px "Italiana", serif;
+      font: 100px $logo-font;
     }
 
     .container-wrapper #tagline {
       padding: 5px 0;
       margin: 0;
-      font: 15px "Raleway", sans-serif;
+      font: 15px $content-font;
     }
   }
 
