@@ -110,15 +110,6 @@ section li {
 
 /* Site Text Logo */
 
-@mixin blockquote {
-  border-left: 3px solid rgba(0,0,0,.84);
-  padding-top: 5px;
-  padding-bottom: 5px;
-  padding-left: 20px;
-  margin-left: 5px;
-  font-style: italic;
-  font-size: .85rem;
-}
 
 /* Site Content */
 @mixin content-section {
@@ -130,8 +121,17 @@ section li {
 @mixin jmk-content {
   padding: 15px 0;
   margin: 0 auto;
-  text-align: left;
   max-width: 750px;
+}
+
+@mixin blockquote {
+  border-left: 3px solid rgba(0,0,0,.84);
+  padding-top: 5px;
+  padding-bottom: 5px;
+  padding-left: 20px;
+  margin-left: 5px;
+  font-style: italic;
+  font-size: .85rem;
 }
 
 @mixin xs {
