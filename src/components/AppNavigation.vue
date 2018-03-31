@@ -10,20 +10,16 @@
         <a href="#introduction">Introduction</a>
       </li>
       <li class="dropdown-item">
-        <a href="#about">About</a>
+        <a href="#how-i-built">How I Built</a>
       </li>
       <li class="dropdown-item">
-        <a href="#travel">Travel</a>
+        <a href="#about">About</a>
       </li>
     </ul>
   </div>
 </template>
 
 <style lang="scss">
-
-ul li {
-  font-size: .8em;
-}
 
 #menu {
   position: fixed;
