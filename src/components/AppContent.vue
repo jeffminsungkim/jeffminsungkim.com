@@ -101,6 +101,7 @@
         <h2>Why Nuxt.js?</h2>
         <p>
           I was wavering between two frameworks Gatsby and Nuxt.
+          (Fill out the context here)
         </p>
         <em>
           To find out
@@ -115,12 +116,11 @@
       <h1 id="about">About JeffMinsungKim</h1>
       <h4>Hello, I like oranges, playing chess and watching baseball games.</h4>
       <p>
-        I'm a programmer.
+        I'm a programmer. (Fill out the context here)
       </p>
       <img src="~/assets/image/jmk-huge-fan-of-js.png" alt="I'm a huge fan of JavaScript!">
       <p>
-        I feel confident about learning new technologies and
-        especially interested in discovering hottest Front-end web application frameworks.
+        (Fill out the context here)
       </p>
 
       <div class="section-divider">
