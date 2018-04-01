@@ -58,7 +58,6 @@
           I've been seeing a lot of people talking about Gatsby on Twitter, and everyone seems to love it.
         </p>
         <div class="line-breaker">
-          <span>🤔 </span>
           <em>Check out the following
             <a href="https://medium.com/codingthesmartway-com-blog/gatsby-static-site-generator-for-react-introduction-b9fce7df6b24">Medium post</a>
             if you're interested in reading about Gatsby.js in details.
@@ -70,7 +69,6 @@
           Also, the Nuxt offers server rendering or static file rendering to boost the performance of your web application.
         </p>
         <div class="line-breaker">
-          <span>🤔 </span>
           <em>Check out the following
             <a href="https://medium.com/codingthesmartway-com-blog/introduction-to-server-rendered-vue-js-apps-with-nuxt-91dbfd80795a">Medium post</a>
             if you're interested in reading about Nuxt.js in details.
@@ -87,7 +85,6 @@
             rendering it to static HTML and CSS on the server.
           </p>
           <img src="~/assets/image/jmk-static-html-css.png" alt="Static HTML and CSS">
-          <span>🤔 </span>
           <em>
             To find out more about benefits of
             <a href="https://medium.com/walmartlabs/the-benefits-of-server-side-rendering-over-client-side-rendering-5d07ff2cefe8">
@@ -100,65 +97,40 @@
           <p>People, however, want fast-loading websites, and server-side rendering is a tool to help you get your site rendered faster!</p>
           <em>Be aware that page loading time is a critical factor in any website's user experience and moreover when it comes to search engine rankings.</em>
         </div>
-
-        <div class="line-breaker">
-        <h3>Pros and Cons</h3>
-        <p>
-          Compared to a traditional SPA (Single-Page Application), the advantage of SSR primarily lies in:
-          <ul>
-            <li>Better SEO, as the search engine crawlers will directly see the fully rendered page.</li>
-            <li>
-              Faster time-to-content, especially on slow internet or slow devices.
-              Server-rendered markup doesn't need to wait until all JavaScript has been downloaded and executed to be displayed.
-            </li>
-          </ul>
-        </p>
-        <p>
-          There are also some trade-offs to consider when using SSR:
-          <ul>
-            <li>
-              Development constraints.
-              Browser-specific code can only be used inside certain lifecycle hooks; some external libraries may need
-              special treatment to be able to run in a server-rendered app.
-            </li>
-            <li>
-              More server-side load.
-              Rendering a full app in Node.js is obviously going to be more CPU-intensive than just serving static files,
-              so if you expect high traffic, be prepared for corresponding server load and wisely employ caching strategies.
-            </li>
-          </ul>
-        </p>
-        </div>
-
-        <h2>Decision</h2>
+        <div class="content">
+        <h2>Why Nuxt.js?</h2>
         <p>
           I was wavering between two frameworks Gatsby and Nuxt.
         </p>
-        <span>🤔 </span>
         <em>
           To find out
           <a href="https://medium.com/vue-mastery/10-reasons-to-use-nuxt-js-for-your-next-web-application-522397c9366b">
           10 reasons to use Nuxt.js for your next web application</a>, check out a brilliant Medium post written by Derick Sozo.
         </em>
-
+        </div>
       </div>
     </section>
     <section>
     <div class="content">
-      <h1 id="about">About Me 👋</h1>
+      <h1 id="about">About JeffMinsungKim</h1>
+      <h4>Hello, I like oranges, playing chess and watching baseball games.</h4>
+      <p>
+        I'm a programmer.
+      </p>
       <img src="~/assets/image/jmk-huge-fan-of-js.png" alt="I'm a huge fan of JavaScript!">
       <p>
         I feel confident about learning new technologies and
         especially interested in discovering hottest Front-end web application frameworks.
       </p>
-      <p>
-        Lorem ipsum dolor sit amet consectetur adipisicing elit.
-        Magnam aspernatur ab unde itaque, cupiditate, praesentium nobis,
-        porro quibusdam perspiciatis temporibus nostrum fugiat illo impedit commodi provident?
-        Odit a at porro adipisci fugit facilis ea laudantium aperiam deserunt,
-        fugiat atque voluptatibus accusamus tempore sit voluptatem nulla nostrum facere? Eveniet non,
-        asperiores optio tenetur quisquam corporis incidunt deserunt molestias ipsum beatae ducimus.
-      </p>
+
+      <div class="section-divider">
+        <hr class="section-divider">
+      </div>
+
+      <div>
+        <p class="quote">The greatest enemy of knowledge is not ignorance, it is the illusion of knowledge.</p>
+        <p>- Daniel J. Boorstin, Washington Post 29th January 1984</p>
+      </div>
       <div id="social">
         <a href="https://twitter.com/jeffminsungkim" target="_blaknk"><font-awesome-icon class="social-icon" :icon="twitter" /></a>
         <a href="https://github.com/jeffminsungkim" target="_blaknk"><font-awesome-icon class="social-icon" :icon="github" /></a>
@@ -180,15 +152,20 @@ export default {
     FontAwesomeIcon
   },
   computed: {
-    github() { return faGithub; },
-    twitter() { return faTwitter; },
-    stackoverflow() { return faStackoverflow; }
+    github() {
+      return faGithub;
+    },
+    twitter() {
+      return faTwitter;
+    },
+    stackoverflow() {
+      return faStackoverflow;
+    }
   }
 };
 </script>
 
 <style lang="scss" scoped>
-
 #social {
   text-align: center;
   a {
@@ -199,12 +176,47 @@ export default {
 .social-icon {
   height: auto;
   width: 30px;
-  padding: 20px 10px;
+  padding: 20px 12px;
 }
 
 section .container-wrapper {
   padding-top: 20px;
   max-width: 2560px;
+}
+
+hr.section-divider:before {
+  --x-height-multiplier: 0.342;
+  --baseline-multiplier: 0.22;
+  font-family: medium-content-slab-serif-font,Georgia,Cambria,"Times New Roman",Times,serif;
+  font-weight: 400;
+  font-style: italic;
+  font-size: 30px;
+  letter-spacing: .6em;
+}
+
+hr.section-divider {
+  margin-top: 52px;
+  margin-bottom: 42px;
+  display: block;
+  border: 0;
+  text-align: center;
+  overflow: visible;
+}
+
+hr.section-divider:before {
+  content: '...';
+  display: inline-block;
+  margin-left: .6em;
+  color: $primary-color;
+  position: relative;
+  top: -30px;
+}
+
+.quote {
+  display: inline-block;
+  transition: .2s background-color;
+  line-height: 1.48;
+  background-image: linear-gradient(to bottom, rgba(226, 242, 255, 1), rgba(226, 242, 255, 1));
 }
 
 .sub-head {
