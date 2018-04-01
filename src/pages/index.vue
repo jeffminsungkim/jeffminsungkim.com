@@ -1,5 +1,5 @@
 <template>
-  <section class="container">
+  <section>
     <app-content/>
   </section>
 </template>
@@ -13,15 +13,3 @@ export default {
   }
 };
 </script>
-
-<style scoped>
-
-.container {
-  min-height: 50vh;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  color: #33333d;
-}
-
-</style>
