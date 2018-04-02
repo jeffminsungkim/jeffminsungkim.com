@@ -10,9 +10,6 @@
         <a href="#introduction">Introduction</a>
       </li>
       <li class="dropdown-item">
-        <a href="#how-i-built">How I Built</a>
-      </li>
-      <li class="dropdown-item">
         <a href="#about">About</a>
       </li>
     </ul>
