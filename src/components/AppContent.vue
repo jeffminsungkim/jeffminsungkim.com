@@ -4,30 +4,26 @@
       <div class="image-wrapper">
         <img src="~/assets/image/jmk-tech-cover.png" alt="Technologies Cover Image">
       </div>
-    <div class="content">
-      <h1>Introduction</h1>
-      <h4 class="sub-head">See <a href="https://github.com/jeffminsungkim/jeffminsungkim.com">source code</a> on Github.</h4>
-      <div class="jmk-blockquote">
-        The purpose of creating this website is to share things that I'm interested in
-        and also to describe how seriously I care about doing things on web development.
-        Furthermore, I believe it's a wonderful opportunity for me to get my hands dirty to enhance my front-end skills.
-      </div>
-      <img src="~/assets/image/jmk-pia.png" alt="Programming is Awesome!">
-      <h2>TL;DR</h2>
-      <p>
-        I've finally launched 🎉 a super simple fanciest personal website in early 2018.
-        This website built within less than a day, by using <a href="https://github.com/nuxt/nuxt.js">Nuxt.js</a> and other amazing tools.
-        Now I'm going to share the story of how I ended up with building this website.
-      </p>
-    </div>
-    </section>
-    <section>
       <div class="content">
-        <h1 id="how-i-built">How I Built 🛠</h1>
+        <h1 id="introduction">Introduction</h1>
+        <h4 class="sub-head">See <a href="https://github.com/jeffminsungkim/jeffminsungkim.com">source code</a> on Github.</h4>
+        <div class="jmk-blockquote">
+          The purpose of creating this website is to share things that I'm interested in
+          and also to describe how seriously I care about doing things on web development.
+          Furthermore, I believe it's a wonderful opportunity for me to get my hands dirty to enhance my front-end skills.
+        </div>
+        <img src="~/assets/image/jmk-pia.png" alt="Programming is Awesome!">
+        <h2>TL;DR</h2>
+        <p>
+          I've finally launched 🎉 a super simple fanciest personal website in early 2018.
+          This website built within less than a day, by using <a href="https://github.com/nuxt/nuxt.js">Nuxt.js</a> and other amazing tools.
+          Now I'm going to share the story of how I ended up with building this website.
+        </p>
+      </div>
+      <div class="content">
+        <h2>How I get started 🛠</h2>
         <h4>Thought process while implementing my website</h4>
         <p class="post-date"><small>March 29, 2018</small></p>
-
-        <h2>How I get started</h2>
         <p>
           At the time of writing, usage of static websites is increasing in popularity.
           In fact, it's not a big surprise as static site generators seem to have been gaining more popular among web developers these days too.
@@ -37,9 +33,10 @@
           <a href="https://www.netlify.com/blog/2017/05/25/top-ten-static-site-generators-of-2017/">posts</a>
           on Netlify which was thankfully written by Eli Williamson.
           After finish reading his article thought it would be nice to get constructed with a static site
-          before I dive into building my first website.
+          before I dive into building the website.
         </p>
-
+      </div>
+      <div class="content">
         <h2>Static Site Generators</h2>
         <p>
           As I mentioned above, static site generators are one of the most popular options to create personal websites for developers.
@@ -48,67 +45,32 @@
         <p>
           First thing first, I had to pick one of the
           <a href="https://github.com/myles/awesome-static-generators">static site generators</a> to make the magic happen on my website.
-          <a href="https://jekyllrb.com/">Jekyll</a> holds it’s position at #1 as the most popular static site generator, but I wasn't really into it.
-          Meanwhile, two frameworks called
+          Although <a href="https://jekyllrb.com/">Jekyll</a> holds it’s position at #1 as the most popular static site generator, I wasn't really into that.
+          Meanwhile, after looking through the options,
+          two frameworks called
           <a href="https://www.gatsbyjs.org/">Gatsby.js</a> and
           <a href="https://nuxtjs.org/">Nuxt.js</a> draw my attention while reading the post that I mentioned a minute ago.
         </p>
-        <p>
-          Gatsby.js is a static PWA (Progressive Web App) generator for React.
-          I've been seeing a lot of people talking about Gatsby on Twitter, and everyone seems to love it.
-        </p>
-        <div class="line-breaker">
-          <em>Check out the following
-            <a href="https://medium.com/codingthesmartway-com-blog/gatsby-static-site-generator-for-react-introduction-b9fce7df6b24">Medium post</a>
-            if you're interested in reading about Gatsby.js in details.
-          </em>
-        </div>
-        <p>
-          Nuxt.js is a framework for creating Universal <a href="https://vuejs.org/">Vue.js</a> Applications.
-          Its main scope is <strong>UI rendering</strong> while abstracting away the client/server distribution.
-          Also, the Nuxt offers server rendering or static file rendering to boost the performance of your web application.
-        </p>
-        <div class="line-breaker">
-          <em>Check out the following
-            <a href="https://medium.com/codingthesmartway-com-blog/introduction-to-server-rendered-vue-js-apps-with-nuxt-91dbfd80795a">Medium post</a>
-            if you're interested in reading about Nuxt.js in details.
-          </em>
-        </div>
-        <p>
-          As you may have noticed it seems like they both provide Server-Side Rendering feature!
-          So before moving on, let's briefly talk about what the server-side rendering is, and let's find out the real benefit.
-        </p>
-        <div class="line-breaker">
-          <h2>What is Server Side Rendering?</h2>
-          <p>
-            Server-side rendering (SSR) is the process of taking a client-side JavaScript framework website and
-            rendering it to static HTML and CSS on the server.
-          </p>
-          <img src="~/assets/image/jmk-static-html-css.png" alt="Static HTML and CSS">
-          <em>
-            To find out more about benefits of
-            <a href="https://medium.com/walmartlabs/the-benefits-of-server-side-rendering-over-client-side-rendering-5d07ff2cefe8">
-            Server Side Rendering VS., Client Side Rendering</a>, check out a brilliant Medium post written by Alex Grigoryan.
-          </em>
-        </div>
-        <div class="line-breaker">
-          <h3>Why is this important?</h3>
-          <p>Most designers and developers tend to focus on building better aesthetic design or adding new nifty functionality on web pages.</p>
-          <p>People, however, want fast-loading websites, and server-side rendering is a tool to help you get your site rendered faster!</p>
-          <em>Be aware that page loading time is a critical factor in any website's user experience and moreover when it comes to search engine rankings.</em>
-        </div>
-        <div class="content">
+      </div>
+      <div class="content">
         <h2>Why Nuxt.js?</h2>
         <p>
-          I was wavering between two frameworks Gatsby and Nuxt.
-          (Fill out the context here)
+          Before I get into a build phase, at some point I was wavering between Gatsby and Nuxt.
+          I've been seeing a lot of people talking about Gatsby on Twitter, and everyone seemed to love it.
+          Even so, the moment of hesitation didn't last long.
+          I've finally decided to settle on Nuxt.js after reading the following brilliant post
+          <a href="https://medium.com/vue-mastery/10-reasons-to-use-nuxt-js-for-your-next-web-application-522397c9366b">
+          "10 reasons to use Nuxt.js for your next web application"</a> written by Derick Sozo.
+        </p>
+        <p>
+          Nuxt.js is a higher-level framework that builds on top of Vue.
+          It simplifies the development of universal or single page <a href="https://vuejs.org/">Vue</a> apps.
         </p>
         <em>
-          To find out
+          If you like to find out the basic idea of starting a project with Nuxt.js
           <a href="https://medium.com/vue-mastery/10-reasons-to-use-nuxt-js-for-your-next-web-application-522397c9366b">
-          10 reasons to use Nuxt.js for your next web application</a>, check out a brilliant Medium post written by Derick Sozo.
+          see the Medium post</a>, written by Sebastian Eschweiler.
         </em>
-        </div>
       </div>
     </section>
     <section>
@@ -116,11 +78,16 @@
       <h1 id="about">About JeffMinsungKim</h1>
       <h4>Hello, I like oranges, playing chess and watching baseball games.</h4>
       <p>
-        I'm a programmer. (Fill out the context here)
+        I'm a programmer who's interested in building things on the web.
+        Currently, into Node.js.
       </p>
       <img src="~/assets/image/jmk-huge-fan-of-js.png" alt="I'm a huge fan of JavaScript!">
       <p>
-        (Fill out the context here)
+        I feel confident learning new technologies and
+        especially interested in discovering hottest Front-end web application frameworks.
+      </p>
+      <p>
+        I value my time. I'm happy when sharing the best of knowledge of mine with others on the condition that makes the mutual time worth it.
       </p>
 
       <div class="section-divider">
@@ -187,11 +154,12 @@ section .container-wrapper {
 hr.section-divider:before {
   --x-height-multiplier: 0.342;
   --baseline-multiplier: 0.22;
-  font-family: medium-content-slab-serif-font,Georgia,Cambria,"Times New Roman",Times,serif;
+  font-family: medium-content-slab-serif-font, Georgia, Cambria,
+    "Times New Roman", Times, serif;
   font-weight: 400;
   font-style: italic;
   font-size: 30px;
-  letter-spacing: .6em;
+  letter-spacing: 0.6em;
 }
 
 hr.section-divider {
@@ -204,9 +172,9 @@ hr.section-divider {
 }
 
 hr.section-divider:before {
-  content: '...';
+  content: "...";
   display: inline-block;
-  margin-left: .6em;
+  margin-left: 0.6em;
   color: $primary-color;
   position: relative;
   top: -30px;
@@ -214,9 +182,13 @@ hr.section-divider:before {
 
 .quote {
   display: inline-block;
-  transition: .2s background-color;
+  transition: 0.2s background-color;
   line-height: 1.48;
-  background-image: linear-gradient(to bottom, rgba(226, 242, 255, 1), rgba(226, 242, 255, 1));
+  background-image: linear-gradient(
+    to bottom,
+    rgba(226, 242, 255, 1),
+    rgba(226, 242, 255, 1)
+  );
 }
 
 .sub-head {
