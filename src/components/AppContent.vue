@@ -22,7 +22,7 @@
       </div>
       <div class="content">
         <h2>How I get started 🛠</h2>
-        <h4>Thought process while implementing my website</h4>
+        <h4>Thought process while implementing my first website</h4>
         <p class="post-date"><small>March 29, 2018</small></p>
         <p>
           At the time of writing, usage of static websites is increasing in popularity.
@@ -76,10 +76,14 @@
     <section>
     <div class="content">
       <h1 id="about">About JeffMinsungKim</h1>
-      <h4>Hello, I like oranges, playing chess and watching baseball games.</h4>
+      <h4>Hello, I like oranges, woodcraft and watching baseball games.</h4>
       <p>
         I'm a programmer who's interested in building things on the web.
         Currently, into Node.js.
+      </p>
+      <p>
+        To me, the process of solving problems is the most valuable things than
+        just by looking at the outcome regardless of how much time you invested.
       </p>
       <img src="~/assets/image/jmk-huge-fan-of-js.png" alt="I'm a huge fan of JavaScript!">
       <p>
