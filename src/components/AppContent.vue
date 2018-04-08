@@ -148,6 +148,13 @@ export default {
   height: auto;
   width: 30px;
   padding: 20px 12px;
+
+  &:hover {
+    color: $orange-color;
+  }
+  &:active {
+    color: $orange-color;
+  }
 }
 
 section .container-wrapper {
