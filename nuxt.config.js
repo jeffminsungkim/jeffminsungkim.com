@@ -27,7 +27,7 @@ module.exports = {
       { name: 'keywords', content: 'jeffminsungkim, vuejs, nuxtjs, nuxt, Universal, Static, website, webpage, blog' },
       { hid: 'description', name: 'description', content: "JeffMinsungKim's Awesome Personal Website" },
       { property: 'og:title', content: 'JeffMinsungKim' },
-      { property: 'og:type', content: 'Personal Website' },
+      { property: 'og:type', content: 'website' },
       { property: 'og:image', content: 'https://i.imgur.com/OLCf1ZY.png' },
       { property: 'og:url', content: 'https://jeffminsungkim.com' },
       { property: 'og:description', content: "JeffMinsungKim's Awesome Personal Website" },
