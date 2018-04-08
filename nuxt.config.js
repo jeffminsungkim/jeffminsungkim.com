@@ -24,8 +24,18 @@ module.exports = {
     meta: [
       { charset: 'utf-8' },
       { name: 'viewport', content: 'width=device-width, initial-scale=1' },
-      { name: 'keywords', content: 'jeffminsungkim, minsungkim, vuejs, nuxtjs, nuxt, javascript, SPA, Static, website, webpage, blog'},
-      { hid: 'description', name: 'description', content: "JeffMinsungKim's Awesome Personal Website" }
+      { name: 'keywords', content: 'jeffminsungkim, vuejs, nuxtjs, nuxt, Universal, Static, website, webpage, blog' },
+      { hid: 'description', name: 'description', content: "JeffMinsungKim's Awesome Personal Website" },
+      { property: 'og:title', content: 'JeffMinsungKim' },
+      { property: 'og:type', content: 'Personal Website' },
+      { property: 'og:image', content: 'https://i.imgur.com/OLCf1ZY.png' },
+      { property: 'og:url', content: 'https://jeffminsungkim.com' },
+      { property: 'og:description', content: "JeffMinsungKim's Awesome Personal Website" },
+      { name: 'twitter:card', content: 'summary' },
+      { name: 'twitter:title', content: 'JeffMinsungKim' },
+      { name: 'twitter:description', content: "JeffMinsungKim's Awesome Personal Website" },
+      { name: 'twitter:image', content: 'https://i.imgur.com/OLCf1ZY.png' },
+      { name: 'twitter:creator', content: '@jeffminsungkim' },
     ],
     link: [
       { rel: 'icon', type: 'image/x-icon', href: '/favicon.ico' },
