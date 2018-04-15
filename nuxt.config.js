@@ -36,8 +36,8 @@ module.exports = {
       { name: 'twitter:title', content: 'JeffMinsungKim' },
       { name: 'twitter:description', content: "JeffMinsungKim's Awesome Personal Website" },
       { name: 'twitter:image', content: 'https://github.com/jeffminsungkim/jeffminsungkim.github.io/blob/master/images/jeffminsungkim.png' },
-      { name: 'twitter:site', content: '@jeffminsungkim' },
       { name: 'twitter:creator', content: '@jeffminsungkim' },
+      { name: 'twitter:site', content: '@jeffminsungkim' },
     ],
     link: [
       { rel: 'icon', type: 'image/x-icon', href: '/favicon.ico' },
