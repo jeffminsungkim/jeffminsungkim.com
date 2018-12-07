@@ -63,6 +63,6 @@
     "node-sass": "^4.8.3",
     "sass-loader": "^6.0.7",
     "vue-jest": "^2.3.0",
-    "vue-server-renderer": "^2.5.16"
+    "vue-server-renderer": "2.5.17"
   }
 }
